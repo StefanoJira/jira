@@ -24,7 +24,9 @@
         },
         "url": "https://stefantest.atlassian.net/servicedesk/customer/portal/1",
         "iconUrl": "https://raw.githubusercontent.com/StefanoJira/jira/refs/heads/main/2025-01-28_12-53.png",
-        "tooltip": "Перейти до порталу",
+        "tooltip": {
+          "value": "Перейти до порталу"
+        },
         "weight": 100
       }
     ]
