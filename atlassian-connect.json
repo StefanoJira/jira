@@ -10,9 +10,6 @@
   "authentication": {
     "type": "jwt"
   },
-  "lifecycle": {
-    "installed": "https://raw.githubusercontent.com/StefanoJira/jira/refs/heads/main/atlassian-connect.json"
-  },
   "scopes": ["READ"],
   "modules": {
     "webItems": [
