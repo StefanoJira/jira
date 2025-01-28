@@ -4,7 +4,6 @@
   "baseUrl": "https://github.com/StefanoJira/jira/blob/172281fa3a67147e9d68d9489cd36eb6f5eb8657/atlassian-connect.json",
   "authentication": {
     "type": "none"
-
   },
   "modules": {
     "webItems": [
@@ -14,19 +13,15 @@
         "location": "system.top.navigation.bar",
         "label": {
           "value": "Client Portal"
-
         },
         "tooltip": {
           "value": "Go to Client Portal"
-
         },
         "icon": {
           "url": "/path/to/icon.png"
-
         },
         "target": {
           "type": "page"
-
         }
       }
     ]
