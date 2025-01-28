@@ -1,7 +1,7 @@
 {
   "key": "custom-client-portal-link",
   "name": "Client Portal Redirect",
-  "baseUrl": "https://raw.githubusercontent.com/StefanoJira/jira/refs/heads/main/atlassian-connect.json",
+  "baseUrl": "https://your-base-url.com",
   "authentication": {
     "type": "none"
   },
@@ -9,7 +9,10 @@
     "webItems": [
       {
         "key": "client-portal-button",
-        "url": "https://kraken-leads.atlassian.net/servicedesk/customer/portal/3",
+        "name": {
+          "value": "Client Portal"
+        },
+        "url": "https://stefantest.atlassian.net/servicedesk/customer/portal/1",
         "location": "system.top.navigation.bar",
         "label": {
           "value": "Client Portal"
