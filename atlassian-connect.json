@@ -6,12 +6,12 @@
     "name": "Stefan Production",
     "url": "https://krakenleads.com/"
   },
-  "baseUrl": "https://your-app-url.com",
+  "baseUrl": "https://raw.githubusercontent.com/StefanoJira/jira/refs/heads/main/atlassian-connect.json",
   "authentication": {
     "type": "jwt"
   },
   "lifecycle": {
-    "installed": "/installed"
+    "installed": "https://raw.githubusercontent.com/StefanoJira/jira/refs/heads/main/atlassian-connect.json"
   },
   "scopes": ["READ"],
   "modules": {
