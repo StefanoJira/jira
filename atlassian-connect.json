@@ -1,0 +1,34 @@
+{
+  "key": "custom-client-portal-link",
+  "name": "Client Portal Redirect",
+  "baseUrl": "https://your-base-url.com",
+  "authentication": {
+    "type": "none"
+
+  },
+  "modules": {
+    "webItems": [
+      {
+        "key": "client-portal-button",
+        "url": "https://kraken-leads.atlassian.net/servicedesk/customer/portal/3",
+        "location": "system.top.navigation.bar",
+        "label": {
+          "value": "Client Portal"
+
+        },
+        "tooltip": {
+          "value": "Go to Client Portal"
+
+        },
+        "icon": {
+          "url": "/path/to/icon.png"
+
+        },
+        "target": {
+          "type": "page"
+
+        }
+      }
+    ]
+  }
+}
