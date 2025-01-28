@@ -23,6 +23,8 @@
           "value": "Portal"
         },
         "url": "https://stefantest.atlassian.net/servicedesk/customer/portal/1",
+        "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Eo_circle_blue_letter-p.svg",
+        "tooltip": "Перейти до порталу",
         "weight": 100
       }
     ]
