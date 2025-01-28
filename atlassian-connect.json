@@ -1,7 +1,7 @@
 {
   "key": "custom-client-portal-link",
   "name": "Client Portal Redirect",
-  "baseUrl": "https://your-base-url.com",
+  "baseUrl": "https://github.com/StefanoJira/jira/blob/5aab4bc14c23fb946ab99ab0404f82771597dadc/atlassian-connect.json",
   "authentication": {
     "type": "none"
 
